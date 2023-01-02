@@ -5,10 +5,13 @@ jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
       - name: echo stuff
         run: |
           pwd
           ls -a
           echo $CC_SECRET
+          yarn install --frozen-lockfile
+          npx codechecks
         env:
           CC_SECRET: ${{ secrets.CC_SECRET }}

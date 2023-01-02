@@ -48,6 +48,8 @@
     "typescript-transform-paths": "^3.4.4"
   },
   "devDependencies": {
+    "@codechecks/build-size-watcher": "^0.0.14",
+    "@codechecks/client": "^0.1.12",
     "@types/bcryptjs": "^2.4.2",
     "@types/bull": "^4.10.0",
     "@types/bunyan": "^1.8.8",
