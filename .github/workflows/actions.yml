@@ -9,3 +9,6 @@ jobs:
         run: |
           pwd
           ls -a
+          echo $CC_SECRET
+        env:
+          CC_SECRET: ${{ secrets.CC_SECRET }}
