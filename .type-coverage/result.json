@@ -1,0 +1,65 @@
+{
+  "cache": {
+    "src/shared/globals/helpers/error-handler.ts": {
+      "hash": "f429165ebd2c108b6ec8449384103e26bce4a651",
+      "correctCount": 76,
+      "totalCount": 76,
+      "anys": []
+    },
+    "src/shared/globals/decorators/joi-validation.decorators.ts": {
+      "hash": "dec61e062342b87430ca17d4386cf9f1ac982e45",
+      "correctCount": 35,
+      "totalCount": 43,
+      "anys": [
+        {
+          "line": 5,
+          "character": 22,
+          "text": "target",
+          "kind": 1
+        },
+        {
+          "line": 8,
+          "character": 10,
+          "text": "_target",
+          "kind": 1
+        },
+        {
+          "line": 9,
+          "character": 10,
+          "text": "originalMethod",
+          "kind": 1
+        },
+        {
+          "line": 9,
+          "character": 38,
+          "text": "value",
+          "kind": 1
+        },
+        {
+          "line": 10,
+          "character": 15,
+          "text": "value",
+          "kind": 1
+        },
+        {
+          "line": 12,
+          "character": 66,
+          "text": "body",
+          "kind": 1
+        },
+        {
+          "line": 16,
+          "character": 13,
+          "text": "originalMethod",
+          "kind": 1
+        },
+        {
+          "line": 16,
+          "character": 28,
+          "text": "apply",
+          "kind": 1
+        }
+      ]
+    }
+  }
+}
