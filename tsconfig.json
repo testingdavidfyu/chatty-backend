@@ -32,5 +32,8 @@
       "@worker/*": ["src/shared/workers/*"],
       "@root/*": ["src/*"],
     }
-  }
+  },
+  "include": [
+    "src"
+  ]
 }
